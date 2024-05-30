@@ -173,10 +173,10 @@ section{
   top: 50%; 
   left: 70%; 
   transform: translate(-50%, -50%); 
-  background-color: black; 
-  color: white;
+  background-color: transparent; 
+  color: black;
   padding: 5px; 
-  font-size: 40px; 
+  font-size: 50px; 
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
