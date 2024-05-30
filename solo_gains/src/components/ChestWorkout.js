@@ -22,7 +22,7 @@ export default function Chestworkout({count}) {
       const options = {
         method: 'GET',
         headers: {
-          'x-rapidapi-key': '33da0c6692msh83f972945266f3cp164687jsnb529b1f1c42a',
+          'x-rapidapi-key': '9f0a11d7d1mshf405214426646dbp186bf2jsn4b7ff06df4fe',
           'x-rapidapi-host': 'exercisedb.p.rapidapi.com'
         }
       };
@@ -44,7 +44,11 @@ return (
 <div>
 <NavBar />
 <div>
-        <h1>Did you workout today?</h1>
+        <h1>"Chest up, chin up, and push through the pain"
+</h1>
+<br>
+
+</br>
         </div>
 
 {exerciseList.map((exercise)=>(

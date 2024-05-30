@@ -10,10 +10,10 @@ const HomePage = () => {
 
   const [quality, setQuality] = useState(1)
 
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState("");
 
   const handleCount = () => {
-    setCount(count + 1);
+    setCount("I'm proud of you");
   };
 
 
@@ -23,14 +23,14 @@ const HomePage = () => {
       <NavBar />
       
       <div>
-        <h1>Did you workout today?</h1>
-        <h2>how many worked out today: {count}</h2>
+        <h1>Did you workout today?{count}</h1>
+        
         <ChildComponent onIncrement={handleCount} />
       </div>
 
-      <body className="headLinePic">
+      <div className="headLinePic">
         <img src={FitnessPic} height="800px" width="1500px" alt=""/>
-      </body>
+      </div>
       
       <div className='helloWorld'>
       It's free for a reason, lets run it.
